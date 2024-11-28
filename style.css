@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(to top, #2e2e2e 20%, #1f1f1e 50%);
+    height: auto;
+    margin: none; 
+    text-align: center;
+}
+
+div{ background-color: rgb(transparent); 
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid rgb(transparent) 5px;
+    padding: 0px;
+    transition: border-width 2 ease ;
+    
+}
+div:hover { background: rgba(88, 88, 88, 0.5);  ; 
+    border-color: #696969 
+    
+    
+}
+
+p{ color: aliceblue;
+    text-align: center;
+    font-size: large;
+}
+
+h1{ color: #f0ec2a;
+
+}
+
+h2{  color: #f0ec2a;
+
+}
+
+h3{
+    color: #f0ec2a;
+}
+
+.div3 {
+    text-align: center;
+}
+
+ .div7{
+    align-items: center;
+    display: flex;
+    
+    
+    
+ }
+  
+.div7 img { 
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding-left: 20px;
+    transition: padding 1s;
+    opacity: 0.5;
+    z-index: 1;
+    
+    
+}
+img:hover{ 
+    opacity: 1;
+    padding-left: 0px;
+    position: relative;
+    
+    
+    
+}
+.div7_1{display: flex; display: inline-block;}
+
+.divsup{
+    margin-top: 100px;
+}
+.videocontainer{
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+}
+
+li {
+    color: aliceblue;
+    list-style-type: none;
+}
+
+
+button{
+    background-color: #333333;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px ;
+    border: none;
+    width: 150px;
+    align-items: center;
+}
+button:hover{
+    background-color: #181818;
+    color: #f0ec2a;
+}
